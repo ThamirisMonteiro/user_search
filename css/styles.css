@@ -1,0 +1,62 @@
+body {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.user-container {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#tabStatistics {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#search {
+  width: 94%;
+}
+
+h4 {
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.user-list {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+.statistics {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>User search</title>
+  </head>
+  <body>
+    <h2>User search</h1>
+        <form>
+          <p>Search</p>
+          <input type="text" id="search" />
+          <button id="button" class="waves-effect waves-light btn" disabled/>Search</button>
+        </form>
+      <div class="user-container">
+        <div class="user-list">
+          <label id="userCount"></label>
+          <h4 id="text">No users found</h4>
+          <div id="tabUsers"></div>
+        </div>
+        <div class="statistics">
+          <h4 id="text2">Nothing to show here</h4>
+          <div id='tabStatistics'></div>
+        </div>
+      </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
